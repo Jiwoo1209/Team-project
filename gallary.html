@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<style>
+  div.gallery {
+    border: 1px solid #ccc;
+  }
+  div.gallery:hover {
+    border: 1px solid #777;
+    background-color: rgb(250, 230, 233);
+  }
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+  *{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+  }
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 25%;
+  }
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 50%;
+      margin: 6px 0;
+    }
+  }
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+
+  /* float 해제를 위한 clearfix 스타일을 추가합니다. */
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  body {
+    background-color: pink;
+  }
+</style>
+</head>
+
+<body>
+
+<h2>💡한 줄 그림 일기💡</h2>
+<h4>인상 깊었던 날을 기억하기 위한 한 줄 일기</h4>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="image/샐러드.png">
+      <img src="image/샐러드.png" alt="Trolltunga Norway" width="300" height="200">
+    </a>
+    <div class="desc">오늘은 사과랑 귤, 딸기를 넣은 샐러드를 만들어 먹었다.</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="image/바다.png">
+      <img src="image/바다.png" alt="Forest" width="600" height="400">
+    </a>
+    <div class="desc">오늘은 바다에 가서 튜브를 타고 놀았다. <br> 너무너무 재밌었다.</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="image/성적.png">
+      <img src="image/성적.png" alt="Northern Lights" width="600" height="400">
+    </a>
+    <div class="desc">웹 프로그래밍 성적으로 A+를 받았다! 기분 최고다!!</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="image/츄르.png">
+      <img src="image/츄르.png" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">오늘은 고양이에게 츄르를 줬다.<br> 너무 귀엽다~!!</div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+
+<div style="padding:6px;">
+  
+</div>
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>넌센스 그림 퀴즈</title>
+    <link rel="stylesheet" href="css/quiz.css">
+</head>
+<body>
+
+    <div id="quiz-container">
+        <h2>💫넌센스 그림 퀴즈💫</h2>
+        <h4>아래 그림의 제목은 무엇일까요?</h4>
+        <img id="quiz-image" alt="그림 퀴즈">
+        <br>
+        <input type="text" id="answer" placeholder="정답을 입력하세요">
+        <br>
+        <button onclick="checkAnswer()">정답 확인</button>
+        <p>총 점수: <span id="total-score">0</span></p>
+    </div>
+    <script src='js/quiz.js'></script>
+</body>
+</html>

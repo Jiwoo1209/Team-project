@@ -1,0 +1,95 @@
+.login {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    position: absolute;
+    background-image: url('image/2.png')
+}
+
+
+
+
+.menu-button {
+    background-color: #ff8e8e;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    top: 30px; /* 위쪽 여백 조절 */
+    right: 30px; /* 오른쪽 여백 조절 */
+}
+button {
+    background-color: #ff8e8e;
+    color: #fff;
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.menu-container {
+    text-align: center;
+    background-color: #ff8e8e;
+    padding: 20px;
+    border-radius: 5px;
+     /* 배경 흐림 효과 */
+    display: none; /* 초기에는 메뉴를 감춤 */
+    position: absolute; /* 위치 조절을 위해 position: absolute; 추가 */
+    top: 0; /* 위쪽 여백 조절 */
+    right: 0; /* 오른쪽 여백 조절 */
+    left: 0;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 10px; /* 선택 사항: 리스트 아이템 간격 조절 */
+}
+
+/* 기본 색상 */
+.nav-item a {
+    color: white;
+}
+
+/* 호버 효과 색상 */
+.nav-item a:hover {
+    color: #ffc107; /* 원하는 호버 색상으로 변경하세요 */
+}
+/*비밀번호 입력*/
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input [type="password"] {
+    width: 70%;
+    padding: 8px;
+    margin-bottom: auto;
+    border: 2px solid pink;
+    border-radius: 4px;
+}
+/*
+#mainNav {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #212529;
+}
+*/
+/*a {
+    text-decoration: none; 
+    color: #ff8e8e; 
+    transition: color 0.3s ease; 
+  }
+a:hover {
+    color: #000000;
+}*/

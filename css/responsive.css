@@ -1,0 +1,34 @@
+/* 기존 CSS에 이 내용을 추가하거나 새로운 CSS 파일을 만듭니다. */
+
+/* 더 큰 화면 크기에 대한 기본 스타일 */
+body {
+    font-size: 16px;
+}
+
+/* 더 작은 화면 크기에 대한 미디어 쿼리 */
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    #wrap {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .floatL, .floatR {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .floatR {
+        margin-top: 20px;
+    }
+
+    #jsCanvas {
+        width: 100%;
+        max-width: 400px; /* 필요에 따라 최대 너비를 조절하세요. */
+    }
+
+    /* 필요에 따라 미디어 쿼리 내에서 더 많은 반응형 스타일을 추가하세요. */
+}
